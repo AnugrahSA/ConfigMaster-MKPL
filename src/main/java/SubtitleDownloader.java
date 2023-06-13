@@ -449,11 +449,8 @@ public class SubtitleDownloader {
     }
 
     private static void displayMovieAndYear(Element element, int n) {
-        String movi
-        eName = element.select("h3.media-heading").text();
+        String movieName = element.select("h3.media-heading").text();
         String year = element.select("span.movinfo-section").first().text().substring(0, 4);
-        System.out.println(n + ". " + movieName + " " + year);
-
         System.out.println(n + ". " + movieName + " " + year);
         System.out.println(n + ". " + movieName + " " + year);
         System.out.println(n + ". " + movieName + " " + year);
